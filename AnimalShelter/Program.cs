@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-
 namespace AnimalShelter
 {
     public class Program
@@ -23,4 +22,5 @@ namespace AnimalShelter
                     webBuilder.UseStartup<Startup>();
                 });
     }
+    
 }
